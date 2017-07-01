@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomeController@index');
+
+Route::post('/users/{user}/meals', 'MealsController@store');
+
+Route::resource('/meals', 'MealsController');
+
+Route::post('/meals/{meal}/foods', 'FoodsController@store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
