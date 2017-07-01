@@ -10,3 +10,5 @@ Track mactronutrient data for each food (protein, carbohydrates, fat);
 Display meals the user has eaten today on the user's dashboard.
 Check out my app [here.](http://fitnessbuddy-ra.herokuapp.com/)
 
+![Image 1](Screen Shot 2017-07-01 at 10.33.26)
+
